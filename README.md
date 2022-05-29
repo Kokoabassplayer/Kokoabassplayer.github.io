@@ -84,6 +84,24 @@ I do these projects to solve problems in my life or to find answers, and sometim
 
 -----
 
+- **How to convert thai number to arabic number**
+
+Made for the convenience of colleagues. And I hope it will be useful to everyone.
+
+Whether Thai people, we choose to use Thai numbers or Arabic numbers.
+
+Data workers like us are always ready to deal with a wide variety of data.
+
+#thainumbers #arabicnumbers #tableau #datavisualization
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/shared/JZ6T42ND9?:display_count=n&:origin=viz_share_link" width = '100%' height = '800' scrolling='yes' ></iframe>
+
+Inspiration: [change.org]([https://www.facebook.com/Ch7HDNews/photos/a.407345295971939/5465526273487124/](https://chng.it/45Fb2B8XHf))
+
+Data Source: [Google Sheets](https://docs.google.com/spreadsheets/d/1pExC1CZQdSmzBeJg7j5e1ap2W6xwTUEDtDCpZoj36OU/edit?usp=sharing)
+
+-----
+
 - **เงินเดือน 15,000 พอใช้ไหมในประเทศไทย?**
 
 #ค่าแรงขั้นต่ำ #tableau #datavisualization
