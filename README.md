@@ -87,9 +87,7 @@ I do these projects to solve problems in my life or to find answers, and sometim
 - **How to convert thai number to arabic number**
 
 Made for the convenience of colleagues. And I hope it will be useful to everyone.
-
 Whether Thai people, we choose to use Thai numbers or Arabic numbers.
-
 Data workers like us are always ready to deal with a wide variety of data.
 
 #thainumbers #arabicnumbers #tableau #datavisualization
