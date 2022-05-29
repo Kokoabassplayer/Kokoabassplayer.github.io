@@ -92,7 +92,7 @@ Data workers like us must always be ready to deal with a wide variety of data.
 
 #thainumbers #arabicnumbers #datatype #datapreparation #preprocessing #tableau #datavisualization #tableautip
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/shared/JZ6T42ND9?:display_count=n&:origin=viz_share_link" width = '100%' height = '800' scrolling='yes' ></iframe>
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/Howtoconvertthainumberstoarabicnumbers/howtoconvertthainumbertoarabicnumber?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link" width = '100%' height = '800' scrolling='yes' ></iframe>
 
 Inspiration: [change.org](https://chng.it/45Fb2B8XHf)
 
