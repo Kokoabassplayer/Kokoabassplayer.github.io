@@ -88,7 +88,7 @@ I do these projects to solve problems in my life or to find answers, and sometim
 
 Made for the convenience of colleagues. And I hope it will be useful to everyone.
 Whether Thai people choose to use Thai numbers or Arabic numbers.
-Data workers like us are always ready to deal with a wide variety of data.
+Data workers like us must always be ready to deal with a wide variety of data.
 
 #thainumbers #arabicnumbers #datatype #datapreparation #preprocessing #tableau #datavisualization
 
