@@ -90,7 +90,7 @@ Made for the convenience of colleagues. And I hope it will be useful to everyone
 Whether Thai people choose to use Thai numbers or Arabic numbers.
 Data workers like us must always be ready to deal with a wide variety of data.
 
-#thainumbers #arabicnumbers #datatype #datapreparation #preprocessing #tableau #datavisualization
+#thainumbers #arabicnumbers #datatype #datapreparation #preprocessing #tableau #datavisualization #tableautip
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/shared/JZ6T42ND9?:display_count=n&:origin=viz_share_link" width = '100%' height = '800' scrolling='yes' ></iframe>
 
