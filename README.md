@@ -15,10 +15,10 @@ It's nice to meet you, and here are some of my work and my passion for data scie
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kokoabassplayer&theme=onedark" />
 </a>
 
-### DataCamp Profile
+### Data Science Learning Profile
 
-<iframe seamless frameborder="0" src="
-[https://public.tableau.com/views/vs__16420933712180/Barandslope?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link](https://www.datacamp.com/profile/kokoabassplayer)" width = '100%' height = '100%' scrolling='yes' ></iframe>
+- [DataCamp Profile](https://www.datacamp.com/profile/kokoabassplayer)
+
 -----
 
 ## Guest Speaker
