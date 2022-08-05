@@ -18,6 +18,7 @@ It's nice to meet you, and here are some of my work and my passion for data scie
 ### Data Science Learning Profile
 
 - [DataCamp Profile](https://www.datacamp.com/profile/kokoabassplayer)
+- <iframe seamless frameborder="0" src="https://app.datacamp.com/profile/kokoabassplayer" width = '100%' height = '800' scrolling='yes' ></iframe>
 
 -----
 
