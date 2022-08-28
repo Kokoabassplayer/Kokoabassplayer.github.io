@@ -392,9 +392,18 @@ Data source : [Our World in Data COVID-19 dataset](https://github.com/owid/covid
 
 test escap embeded 
 
-data
+data - normal url
 <iframe seamless frameborder="0" src="
 https://public.tableau.com/app/profile/escap.sdts/viz/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?MIPAA%20Priority%20areas=Data" width = '100%' height = '630' scrolling='yes' ></iframe>
+
+data - normal url modify
+<iframe seamless frameborder="0" src="
+https://public.tableau.com/app/profile/escap.sdts/viz/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?MIPAA%20Priority%20areas=Data?:embed=yes&:display_count=yes&:showVizHome=no" width = '100%' height = '630' scrolling='yes' ></iframe>
+
+data - embed url
+<iframe seamless frameborder="0" src="
+https://public.tableau.com/shared/7QKSD9Q7Z?:display_count=n&:origin=viz_share_link" width = '100%' height = '630' scrolling='yes' ></iframe>
+https://public.tableau.com/shared/7QKSD9Q7Z?:display_count=n&:origin=viz_share_link
 
 
 
