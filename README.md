@@ -90,6 +90,28 @@ I do these projects to solve problems in my life or to find answers, and sometim
 
 -----
 
+- **Siblorr de buby (AKA. cat)**
+
+I created this dashboard to track vaccinations, weight and expenses of my beloved cat. And will update new data every day, making it more convenient to take care of.
+
+It would be great if you could comment me on this link   https://airtable.com/shrDbgx4PBzp7BcPp?prefill_Dashboard%20link=Siblorr%20the%20buby%20(AKA.%20cat)&hide_Dashboard%20link=true
+
+That I will collect, read and improve my work in the future.
+
+And if you like him and want to see him more too. Please follow him on his Instagram. https://www.instagram.com/siblorr/
+
+Thank you for your attention.
+
+#tableau #dashboard #airtable #datavisualization #database #dataintegration #figma
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/SiblorrthebubyAKA_cat/Petprofile?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link" width = '100%' height = '800' scrolling='yes' ></iframe>
+
+Inspiration: [my cat](https://www.instagram.com/siblorr)
+
+Data Source: [Airtable](https://airtable.com/appSiW5dTCuGnis2C/tblLPJ0xL9ThTUrDH/viwxyQehkjvQooLUU?blocks=hide)
+
+-----
+
 - **How to convert thai number to arabic number**
 
 Made for the convenience of colleagues. And I hope it will be useful to everyone.
