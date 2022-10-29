@@ -89,7 +89,7 @@ Data Source: [SAT-MOPH & TABLEAU THAILAND](https://covid19.ddc.moph.go.th/) (The
 I had the opportunity to work with United Nations ESCAP as a data visualization consultant (Contract). I am very proud to be involved in a work that improves the lives of our fellow humans.
 
 test embed with view url feature of tableau public
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?:language=en-US&:display_count=n&:origin=viz_share_link" width = '1200' height = '2000' scrolling='yes' ></iframe>
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?:language=en-US&:display_count=n&:origin=viz_share_link" width = '1240' height = '2040' scrolling='yes' ></iframe>
 
 
 Inspiration: [United Nation website]([https://www.instagram.com/siblorr](https://www.un.org/en/))
