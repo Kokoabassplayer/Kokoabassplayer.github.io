@@ -91,13 +91,13 @@ Data Source: [SAT-MOPH & TABLEAU THAILAND](https://covid19.ddc.moph.go.th/) (The
 - **Population Aging**
 I had the opportunity to work with United Nations ESCAP as a data visualization consultant (Contract). I am very proud to be involved in a work that improves the lives of our fellow humans.
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?:language=en-US&:display_count=n&:origin=viz_share_link" width = '100%' height = '2000' scrolling='yes' ></iframe>
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?:language=en-US&:display_count=n&:origin=viz_share_link" width = '1200' height = '2000' scrolling='yes' ></iframe>
 
 test embed with filter url
-<iframe seamless frameborder="0" src="https://public.tableau.com/app/profile/escap.sdts/viz/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?MIPAA%20Priority%20areas=Older%20persons%20and%20development" width = '100%' height = '2000' scrolling='yes' ></iframe>
+<iframe seamless frameborder="0" src="https://public.tableau.com/app/profile/escap.sdts/viz/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?MIPAA%20Priority%20areas=Older%20persons%20and%20development" width = '1200%' height = '2000' scrolling='yes' ></iframe>
 
 test embed with view url feature of tableau public
-<iframe seamless frameborder="0" src="https://public.tableau.com/app/profile/escap.sdts/viz/shared/S3RJCN8SX" width = '100%' height = '2000' scrolling='yes' ></iframe>
+<iframe seamless frameborder="0" src="https://public.tableau.com/app/profile/escap.sdts/viz/shared/S3RJCN8SX" width = '1200' height = '2000' scrolling='yes' ></iframe>
 
 Inspiration: [United Nation website]([https://www.instagram.com/siblorr](https://www.un.org/en/))
 
