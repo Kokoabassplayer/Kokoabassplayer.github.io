@@ -74,7 +74,7 @@ I volunteered for the Department of Disease Control. Because I want to help medi
 *I only contributed 1 dashboard tab "สถานการณ์ผู้เสียชีวิตจากเชื้อ COVID-19 ในประเทศไทย"
 
 <iframe seamless frameborder="0" src="
-https://ddc.moph.go.th/covid19-daily-dashboard/?dashboard=death-statistics&fbclid=IwAR2ZQCCBW1fnrXMNQwV7NvLNbGYiCJEnO4p2OafVE0EJIUyWEj31SndbMGI" width = '1230' height = '100%' scrolling='yes' ></iframe>
+https://ddc.moph.go.th/covid19-daily-dashboard/?dashboard=death-statistics&fbclid=IwAR2ZQCCBW1fnrXMNQwV7NvLNbGYiCJEnO4p2OafVE0EJIUyWEj31SndbMGI" width = '1240' height = '1500' scrolling='yes' ></iframe>
 
 Inspiration: Anxiety from seeing the dead increase
 
@@ -90,11 +90,6 @@ I had the opportunity to work with United Nations ESCAP as a data visualization 
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?:language=en-US&:display_count=n&:origin=viz_share_link" width = '1200' height = '2000' scrolling='yes' ></iframe>
 
-test embed with filter url
-<iframe seamless frameborder="0" src="https://public.tableau.com/app/profile/escap.sdts/viz/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?MIPAA%20Priority%20areas=Older%20persons%20and%20development" width = '1200%' height = '2000' scrolling='yes' ></iframe>
-
-test embed with view url feature of tableau public
-<iframe seamless frameborder="0" src="https://public.tableau.com/app/profile/escap.sdts/viz/shared/S3RJCN8SX" width = '1200' height = '2000' scrolling='yes' ></iframe>
 
 Inspiration: [United Nation website]([https://www.instagram.com/siblorr](https://www.un.org/en/))
 
