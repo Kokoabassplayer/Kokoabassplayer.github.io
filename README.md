@@ -74,7 +74,7 @@ I volunteered for the Department of Disease Control. Because I want to help medi
 *I only contributed 1 dashboard tab "สถานการณ์ผู้เสียชีวิตจากเชื้อ COVID-19 ในประเทศไทย"
 
 <iframe seamless frameborder="0" src="
-https://ddc.moph.go.th/covid19-daily-dashboard/?dashboard=death-statistics&fbclid=IwAR2ZQCCBW1fnrXMNQwV7NvLNbGYiCJEnO4p2OafVE0EJIUyWEj31SndbMGI" width = '1230' height = '1610' scrolling='yes' ></iframe>
+https://ddc.moph.go.th/covid19-daily-dashboard/?dashboard=death-statistics&fbclid=IwAR2ZQCCBW1fnrXMNQwV7NvLNbGYiCJEnO4p2OafVE0EJIUyWEj31SndbMGI" width = '1230' height = '100%' scrolling='yes' ></iframe>
 
 Inspiration: Anxiety from seeing the dead increase
 
