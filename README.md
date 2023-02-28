@@ -103,7 +103,7 @@ I do these projects to solve problems in my life or to find answers, and sometim
 
 -----
 
-- **ARTIST CALENDAR | Tour dates central**
+- **ARTIST CALENDAR: Tour dates central**
 
 Made for all fans who cherish the experience of live music.
 
