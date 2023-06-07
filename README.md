@@ -73,13 +73,9 @@ To better understand the impact of COVID-19 across their country, Bangkok Tablea
 I volunteered for the Department of Disease Control. Because I want to help medical personnel to work more comfortably. And hopes that it will help Thai people have access to information quickly, timely, and be better prepared to deal with the disease. 
 *I only contributed 1 dashboard tab "สถานการณ์ผู้เสียชีวิตจากเชื้อ COVID-19 ในประเทศไทย"
 
-<iframe seamless frameborder="0" src="
-https://ddc.moph.go.th/covid19-daily-dashboard/?dashboard=death-statistics&fbclid=IwAR2ZQCCBW1fnrXMNQwV7NvLNbGYiCJEnO4p2OafVE0EJIUyWEj31SndbMGI" width = '1240' height = '1800' scrolling='yes' ></iframe>
-
 Inspiration: Anxiety from seeing the dead increase
 
 Data Source: [SAT-MOPH & TABLEAU THAILAND](https://covid19.ddc.moph.go.th/) (The raw data used to create this dashboard is not authorized to be disclosed.)
-
 
 -----
 
@@ -90,7 +86,7 @@ Data Source: [SAT-MOPH & TABLEAU THAILAND](https://covid19.ddc.moph.go.th/) (The
 I had the opportunity to work with United Nations ESCAP as a data visualization consultant (Contract). I am very proud to be involved in a work that improves the lives of our fellow humans.
 
 test embed with view url feature of tableau public
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?:language=en-US&:display_count=n&:origin=viz_share_link" width = '1240' height = '2140' scrolling='yes' ></iframe>
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/Population_Aging_V_0_10/NationalpolicyandMIPAAimplementationchart?:language=en-US&:display_count=n&:origin=viz_share_link" width = '1240' height = '1200' scrolling='yes' ></iframe>
 
 Inspiration: [United Nation website]([https://www.instagram.com/siblorr](https://www.un.org/en/))
 
