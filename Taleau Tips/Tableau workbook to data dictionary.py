@@ -148,9 +148,9 @@ api_key = "your-openai-api-key"  # ใส่ API key ของ OpenAI แทน�
 model="gpt-3.5-turbo"  # เลือกใช้ระหว่าง "gpt-3.5-turbo" ถูก เร็ว(เมื่อเทียบกับโมเดลอื่นๆ), "gpt-4 turbo" ดีกว่า แพงกว่า 10 เท่า ช้ามากๆ
 
 df_sample, output_csv_path = export_enhanced_tableau_data_dictionary(
-    r'C:\Path\to\your\workbook.twb', 
+    r'C:\Path\to\your\workbook.twb', # ชี้ path ไปที่ tableau workbook ที่เราต้องการ
     api_key=api_key,
     model=model,
-    include_ai_description=True
+    include_ai_description=True # เปิดหรือปิด AI ด้วยการกำหนดค่า True หรือ False
 )
 
