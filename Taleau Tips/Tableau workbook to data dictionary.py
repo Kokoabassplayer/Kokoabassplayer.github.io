@@ -2,11 +2,13 @@
 
 # pip install tableaudocumentapi # doc: https://tableau.github.io/document-api-python/
 
-from tableaudocumentapi import Workbook
+import openai
 import pandas as pd
+from tableaudocumentapi import Workbook
 import os
-import re
+import xml.etree.ElementTree as ET
 
+# ฟังก์ชันสำหรับแทนที่ ID ด้วยชื่อฟิลด์
 def replace_ids_with_names(calculation, field_id_to_name):
     """
     แทนที่ Field ID ด้วยชื่อ Field ในสตริงการคำนวณของ Tableau
@@ -36,18 +38,54 @@ def replace_ids_with_names(calculation, field_id_to_name):
         print("✨ การคำนวณหลังการแทนที่:", calculation)
     return calculation
 
-def export_enhanced_tableau_data_dictionary(tableau_workbook_path):
+
+# ฟังก์ชันสำหรับใช้ AI ในการอนุมานคำอธิบาย จากคอลั่มอื่นๆ
+def get_ai_description(row, api_key, model="gpt-3.5-turbo"): # เลือกได้ระหว่าง "gpt-3.5-turbo" ธรรมดา ไม่แพง ช้า, "gpt-4 turbo" ดี แพง ช้ามากๆๆ
     """
-    ส่งออก data dictionary ขั้นสูงจาก Tableau workbook ไปยังไฟล์ CSV
+    สร้างคำอธิบายจาก AI สำหรับฟิลด์ใน Tableau โดยใช้ OpenAI
+
+    Parameters:
+    row (pd.Series): แถวใน DataFrame ที่มีข้อมูลฟิลด์
+    api_key (str): API key สำหรับ OpenAI
+    model (str): ชื่อโมเดล AI ที่ใช้ (เช่น "gpt-3.5-turbo")
+
+    Returns:
+    str: คำอธิบายที่สร้างโดย AI
+    """
+    try:
+        openai.api_key = api_key
+        #prompt = f"Please provide a brief description and confidence level  for the following Tableau field:\n- Field Name: {row['Field Name']}\n- Field Type: {row['Field Type']}\n- Field Role: {row['Field Role']}\n- Field Calculation: {row['Field Calculation']}\n\nDescription:"
+        prompt = f"Please provide a brief description and confidence level  for the following Tableau field:\n- Field Name: {row['Field Name']}\n- Field Type: {row['Field Type']}\n- Field Role: {row['Field Role']}\n- Field Calculation: {row['Field Calculation Updated']}\n- Field Description: {row['Field Description']}\n- Default Aggregation: {row['Default Aggregation']}\n- Is Quantitative: {row['Is Quantitative']}\n- Is Ordinal: {row['Is Ordinal']}\n- Is Nominal: {row['Is Nominal']}\n\nDescription:"
+
+        response = openai.ChatCompletion.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": prompt}
+            ]
+        )
+        return response['choices'][0]['message']['content'].strip()
+    except Exception as e:
+        return f"Error generating description: {e}"    
+
+
+
+def export_enhanced_tableau_data_dictionary(tableau_workbook_path, api_key=None, model="gpt-3.5-turbo", include_ai_description=False):
+    """
+    ส่งออก data dictionary ขั้นสูงจาก Tableau workbook ไปยังไฟล์ CSV พร้อมทางเลือกในการใช้ AI สำหรับคำอธิบาย
 
     Parameters:
     tableau_workbook_path (str): ที่อยู่ไฟล์ของ Tableau workbook
+    api_key (str): API key สำหรับ OpenAI (ถ้าต้องการใช้ AI)
+    model (str): ชื่อโมเดล AI ที่ใช้ (เช่น "gpt-3.5-turbo" หรือ "gpt-4 turbo")
+    include_ai_description (bool): ตัวเลือกในการเพิ่มคำอธิบายจาก AI
 
     Returns:
-    tuple: ประกอบด้วย DataFrame ที่มีข้อมูล data dictionary และที่อยู่ไฟล์ CSV ที่ถูกส่งออก
+    tuple: DataFrame ที่มีข้อมูล data dictionary และที่อยู่ไฟล์ CSV ที่ถูกส่งออก
     """
-    # โหลด Workbook จากที่อยู่ไฟล์ที่ระบุ
+    # โหลด Workbook และประมวลผลข้อมูล
     workbook = Workbook(tableau_workbook_path)
+
     # กำหนดชื่อไฟล์ CSV สำหรับส่งออก
     workbook_base_name = os.path.splitext(os.path.basename(tableau_workbook_path))[0]
     output_csv_file = os.path.join(os.path.dirname(tableau_workbook_path), workbook_base_name + '_EnhancedDataDictionary.csv')
@@ -57,6 +95,17 @@ def export_enhanced_tableau_data_dictionary(tableau_workbook_path):
     # วนลูปเข้าถึงแต่ละ datasource และ field ใน workbook
     for datasource in workbook.datasources:
         for field_id, field in datasource.fields.items():
+            field_description_xml = getattr(field, 'description', None)
+            field_description = ''
+            # แก้ไขให้ field_description แสดงแต่คำอธิบาย
+            if field_description_xml is not None:
+                try:
+                    root = ET.fromstring(field_description_xml)
+                    extracted_text = ''.join(root.itertext())
+                    field_description = ' '.join(extracted_text.split())
+                except ET.ParseError:
+                    field_description = field_description_xml
+    
             # เก็บคุณสมบัติของ field
             field_properties = {
                 'Datasource Name': datasource.name,
@@ -66,7 +115,7 @@ def export_enhanced_tableau_data_dictionary(tableau_workbook_path):
                 'Field Role': getattr(field, 'role', ''),
                 'Field Calculation': getattr(field, 'calculation', ''),
                 'Field Caption': getattr(field, 'caption', ''),
-                'Field Description': getattr(field, 'description', ''),
+                'Field Description': field_description,
                 'Default Aggregation': getattr(field, 'default_aggregation', ''),
                 'Is Quantitative': getattr(field, 'is_quantitative', ''),
                 'Is Ordinal': getattr(field, 'is_ordinal', ''),
@@ -83,11 +132,25 @@ def export_enhanced_tableau_data_dictionary(tableau_workbook_path):
         lambda row: replace_ids_with_names(row['Field Calculation'], field_id_to_name), axis=1
     )
 
+    # ถ้าเลือกใช้ AI ในการสร้างคำอธิบาย
+    if include_ai_description and api_key:
+        df['AI Description'] = df.apply(lambda row: get_ai_description(row, api_key, model), axis=1)
+
     # ส่งออก DataFrame เป็นไฟล์ CSV
     df.to_csv(output_csv_file, index=False, encoding='utf-8-sig')
     print(f"ได้ส่งออก data dictionary ขั้นสูงไปที่ {output_csv_file}")
 
     return df, output_csv_file
 
+
 # ตัวอย่างการใช้งาน
-df_sample, output_csv_path = export_enhanced_tableau_data_dictionary(r'C:\Path\To\Your\Workbook.twbx')
+api_key = "your-openai-api-key"  # ใส่ API key ของ OpenAI แทนที่ "your-openai-api-key" ซื้อ key ของคุณเองได้ที่: https://openai.com/product
+model="gpt-3.5-turbo"  # เลือกใช้ระหว่าง "gpt-3.5-turbo" ถูก เร็ว(เมื่อเทียบกับโมเดลอื่นๆ), "gpt-4 turbo" ดีกว่า แพงกว่า 10 เท่า ช้ามากๆ
+
+df_sample, output_csv_path = export_enhanced_tableau_data_dictionary(
+    r'C:\Path\to\your\workbook.twb', 
+    api_key=api_key,
+    model=model,
+    include_ai_description=True
+)
+
