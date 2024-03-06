@@ -145,7 +145,7 @@ def export_enhanced_tableau_data_dictionary(tableau_workbook_path, api_key=None,
 
 # ตัวอย่างการใช้งาน
 api_key = "your-openai-api-key"  # ใส่ API key ของ OpenAI แทนที่ "your-openai-api-key" ซื้อ key ของคุณเองได้ที่: https://openai.com/product
-model="gpt-3.5-turbo"  # เลือกใช้ระหว่าง "gpt-3.5-turbo" ถูก เร็ว(เมื่อเทียบกับโมเดลอื่นๆ), "gpt-4-0125-preview" ดีกว่า แพงกว่า 3 เท่า ช้ามาก
+model="gpt-3.5-turbo"  # เลือกใช้ระหว่าง "gpt-3.5-turbo" ถูก เร็ว(เมื่อเทียบกับโมเดลอื่นๆ), "gpt-4-0125-preview" ดีกว่า แพงกว่า 10 เท่า ช้ามาก
 
 df_sample, output_csv_path = export_enhanced_tableau_data_dictionary(
     r'C:\Path\to\your\workbook.twb', # ชี้ path ไปที่ tableau workbook ที่เราต้องการ
