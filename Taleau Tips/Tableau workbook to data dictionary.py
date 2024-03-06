@@ -55,8 +55,8 @@ def get_ai_description(row, api_key, model="gpt-3.5-turbo"): # เลือก�
     try:
         openai.api_key = api_key
         #prompt = f"Please provide a brief description and confidence level  for the following Tableau field:\n- Field Name: {row['Field Name']}\n- Field Type: {row['Field Type']}\n- Field Role: {row['Field Role']}\n- Field Calculation: {row['Field Calculation']}\n\nDescription:"
-        prompt = f"Please provide a brief description and confidence level  for the following Tableau field:\n- Field Name: {row['Field Name']}\n- Field Type: {row['Field Type']}\n- Field Role: {row['Field Role']}\n- Field Calculation: {row['Field Calculation Updated']}\n- Field Description: {row['Field Description']}\n- Default Aggregation: {row['Default Aggregation']}\n- Is Quantitative: {row['Is Quantitative']}\n- Is Ordinal: {row['Is Ordinal']}\n- Is Nominal: {row['Is Nominal']}\n\nDescription:"
-
+        #prompt = f"Please provide a brief description and confidence level  for the following Tableau field:\n- Field Name: {row['Field Name']}\n- Field Type: {row['Field Type']}\n- Field Role: {row['Field Role']}\n- Field Calculation: {row['Field Calculation Updated']}\n- Field Description: {row['Field Description']}\n- Default Aggregation: {row['Default Aggregation']}\n- Is Quantitative: {row['Is Quantitative']}\n- Is Ordinal: {row['Is Ordinal']}\n- Is Nominal: {row['Is Nominal']}\n\nDescription:"
+        prompt = f"Please provide a concise Thai description and confidence level for the following Tableau field:\n- Field Name: {row['Field Name']}\n- Field Type: {row['Field Type']}\n- Field Role: {row['Field Role']}\n- Field Calculation: {row['Field Calculation Updated']}\n- Field Description: {row['Field Description']}\n- Default Aggregation: {row['Default Aggregation']}\n- Is Quantitative: {row['Is Quantitative']}\n- Is Ordinal: {row['Is Ordinal']}\n- Is Nominal: {row['Is Nominal']}\n\nDescription:"
         response = openai.ChatCompletion.create(
             model=model,
             messages=[
@@ -145,7 +145,7 @@ def export_enhanced_tableau_data_dictionary(tableau_workbook_path, api_key=None,
 
 # ตัวอย่างการใช้งาน
 api_key = "your-openai-api-key"  # ใส่ API key ของ OpenAI แทนที่ "your-openai-api-key" ซื้อ key ของคุณเองได้ที่: https://openai.com/product
-model="gpt-3.5-turbo"  # เลือกใช้ระหว่าง "gpt-3.5-turbo" ถูก เร็ว(เมื่อเทียบกับโมเดลอื่นๆ), "gpt-4 turbo" ดีกว่า แพงกว่า 10 เท่า ช้ามากๆ
+model="gpt-3.5-turbo"  # เลือกใช้ระหว่าง "gpt-3.5-turbo" ถูก เร็ว(เมื่อเทียบกับโมเดลอื่นๆ), "gpt-4-0125-preview" ดีกว่า แพงกว่า 3 เท่า ช้ามาก
 
 df_sample, output_csv_path = export_enhanced_tableau_data_dictionary(
     r'C:\Path\to\your\workbook.twb', # ชี้ path ไปที่ tableau workbook ที่เราต้องการ
