@@ -99,6 +99,16 @@ I do these projects to solve problems in my life or to find answers, and sometim
 
 -----
 
+## Simple AI ChatBot app with Streamlit
+
+I've been trying to learn how to use Streamlit to make our chatbot accessible to others without requiring them to log in. I've been searching and watching YouTube videos, then following along, and it has been a successful and enjoyable learning experience. Next, I would like to experiment with the RAG (Retrieval-Augmented Generation) technique to create a bot with more specialized knowledge, hoping to make it useful for sharing with humanity, similar to what I've practiced with Tableau Public.
+
+Special thanks to the creator of this YouTube video for their insightful tutorial, which has been immensely helpful: https://www.youtube.com/watch?v=sf5MrM0AIiU
+
+<iframe seamless frameborder="0" src="https://gemini-pro-app-chatbot.streamlit.app/" width = '100%' height = '100%' scrolling='yes' ></iframe>
+
+-----
+
 - **ARTIST CALENDAR: Tour dates central**
 
 Made for all fans who cherish the experience of live music.
