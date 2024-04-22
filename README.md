@@ -99,7 +99,7 @@ I do these projects to solve problems in my life or to find answers, and sometim
 
 -----
 
-## Simple AI ChatBot app with Streamlit
+- **Simple AI ChatBot app with Streamlit**
 
 I've been trying to learn how to use Streamlit to make our chatbot accessible to others without requiring them to log in. I've been searching and watching YouTube videos, then following along, and it has been a successful and enjoyable learning experience. Next, I would like to experiment with the RAG (Retrieval-Augmented Generation) technique to create a bot with more specialized knowledge, hoping to make it useful for sharing with humanity, similar to what I've practiced with Tableau Public.
 
