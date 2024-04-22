@@ -105,7 +105,7 @@ I've been trying to learn how to use Streamlit to make our chatbot accessible to
 
 Special thanks to the creator of this YouTube video for their insightful tutorial, which has been immensely helpful: https://www.youtube.com/watch?v=sf5MrM0AIiU
 
-<iframe seamless frameborder="0" src="https://gemini-pro-app-chatbot.streamlit.app/" width = '100%' height = '100%' scrolling='yes' ></iframe>
+<iframe seamless frameborder="0" src="https://gemini-pro-app-chatbot.streamlit.app/?embedded=true" width = '100%' height = '100%' scrolling='yes' ></iframe>
 
 -----
 
