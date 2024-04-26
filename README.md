@@ -8,6 +8,17 @@
  allow="microphone">
 </iframe>
 -----
+<script>
+ window.difyChatbotConfig = {
+  token: 'fBDRuTpdsLwzzPrF'
+ }
+</script>
+<script
+ src="https://udify.app/embed.min.js"
+ id="fBDRuTpdsLwzzPrF"
+ defer>
+</script>
+-----
 
 My name is Nuttapong Buttprom, I am a Corporate data analytic at Learn Corporation / Data visualization consultant for UN-ESCAP / Tableau user group Thailand Co-Leader / Musician and data science learner.
 
