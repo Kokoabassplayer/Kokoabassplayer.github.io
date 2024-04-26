@@ -1,14 +1,5 @@
 ![My Profile Photo](https://user-images.githubusercontent.com/61007612/90506131-f96c3000-e17d-11ea-8bf0-646bb755e751.jpg)
 
------
-<iframe
- src="https://udify.app/chatbot/0Oes2pzVq4IUYxd4"
- style="width: 100%; height: 100%; min-height: 700px"
- frameborder="0"
- allow="microphone">
-</iframe>
------
-
 My name is Nuttapong Buttprom, I am a Corporate data analytic at Learn Corporation / Data visualization consultant for UN-ESCAP / Tableau user group Thailand Co-Leader / Musician and data science learner.
 
 It's nice to meet you, and here are some of my work and my passion for data science. You can download my workbook(if data is not confidential) for more details on creating it in the bottom right corner of the chart. also can [View on GitHub](https://github.com/Kokoabassplayer) , Enjoy
@@ -28,6 +19,13 @@ It's nice to meet you, and here are some of my work and my passion for data scie
 
 - [DataCamp Profile](https://www.datacamp.com/profile/kokoabassplayer)
 
+-----
+<iframe
+ src="https://udify.app/chatbot/0Oes2pzVq4IUYxd4"
+ style="width: 100%; height: 100%; min-height: 700px"
+ frameborder="0"
+ allow="microphone">
+</iframe>
 -----
 
 ## Guest Speaker
