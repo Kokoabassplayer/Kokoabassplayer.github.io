@@ -27,22 +27,12 @@ It's nice to meet you, and here are some of my work and my passion for data scie
  src="https://udify.app/chatbot/0Oes2pzVq4IUYxd4"
  style="width: 100%; height: 100%; min-height: 700px"
  frameborder="0"
- allow="microphone">
-</iframe>
-
-
-
-
------
-<iframe
- src="https://udify.app/chatbot/0Oes2pzVq4IUYxd4"
- style="width: 100%; height: 100%; min-height: 700px"
- frameborder="0"
  allow="microphone"
  title="AI Portfolio Chatbot"
  sandbox="allow-scripts allow-same-origin allow-forms"
  loading="lazy">
 </iframe>
+
 -----
 
 ## Hackathon Achievements
