@@ -28,6 +28,37 @@ It's nice to meet you, and here are some of my work and my passion for data scie
 </iframe>
 -----
 
+## Hackathon Achievements
+
+### Cloud Ace Hackathon 2024
+
+I am grateful to have been a part of 'TEAM 21', which was awarded both the 1st prize and the popular vote at the Cloud Ace Hackathon on June 22, 2024. This event was a wonderful opportunity to explore innovative chatbot solutions using Generative AI on Google Cloud. Our team's dedication and collaborative spirit were key to our success.
+
+[Read more about the event](https://cloud-ace.co.th/blogs/i9l0b6-cloud-ace-hackathon?fbclid=IwZXh0bgNhZW0CMTAAAR0pjMSnjwCuyf6HrXYLTIY6dIgj2OUW6pTRYzezR3orfV5qI0ZuuBXVhTY_aem_HSEuFv0b03UWnSw-ymo7lg)
+
+### Our Project
+
+Our project focused on creating a sophisticated chatbot that utilized Generative AI to enhance user interaction and functionality. The project’s success was due to our team’s hard work and innovative approach.
+
+![Team 21 Winning Moment](https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/448578293_993037299284482_2223861180049368411_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE3lQ2O6yefgVIXBW5AOV6Ok0iICmUz8m-TSIgKZTPyb_rFWR3rJ8TKumfB86HdYxY&_nc_ohc=oimITTB4KvkQ7kNvgHWz9qI&_nc_ht=scontent.fbkk13-1.fna&oh=00_AYAF2fgi8-D8Eds7UziabizMAR-aUBsoGrSkaXuwhx8pBg&oe=668B6085)
+
+Special thanks to my team members:
+- [Krittin Dejhomchuen (Neab)](https://www.facebook.com/neab.cud) as Team Lead
+- [Piyachot Chotivarakul (Ton)](https://www.facebook.com/ton.piyachot) as AI Engineer
+- [Nuttapong Buttprom (Ko)](https://www.facebook.com/KokoaBassPlayer) as Prompt Designer/Prompt Engineer
+
+We are honored to have received recognition for our efforts.
+
+### Featured on Social Media
+
+Our participation and success at the Cloud Ace Hackathon were kindly acknowledged by คลาวด์ เอซ - Cloud Ace Thailand in the following posts:
+- [Facebook Post 1](https://www.facebook.com/share/p/yNSGsi4WcZRds9pK/)
+- [Facebook Post 2](https://www.facebook.com/share/v/jTFvUqkCtD3eHV7e/)
+
+This recognition means a lot to us, and we appreciate the support from the community.
+
+-----
+
 ## Guest Speaker
 
 - **Virtual Thailand Tableau User Group : Feb 2021**
