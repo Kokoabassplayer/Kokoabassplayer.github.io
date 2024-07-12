@@ -47,7 +47,7 @@ I am grateful to have been a part of 'TEAM 21', which was awarded both the 1st p
 
 Our project focused on creating a sophisticated chatbot that utilized Generative AI to enhance user interaction and functionality. The project’s success was due to our team’s hard work and innovative approach.
 
-![Team 21 Winning Moment](https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/448578293_993037299284482_2223861180049368411_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE3lQ2O6yefgVIXBW5AOV6Ok0iICmUz8m-TSIgKZTPyb_rFWR3rJ8TKumfB86HdYxY&_nc_ohc=oimITTB4KvkQ7kNvgHWz9qI&_nc_ht=scontent.fbkk13-1.fna&oh=00_AYAF2fgi8-D8Eds7UziabizMAR-aUBsoGrSkaXuwhx8pBg&oe=668B6085)
+![Team 21 Winning Moment](https://scontent.fbkk7-3.fna.fbcdn.net/v/t39.30808-6/448578293_993037299284482_2223861180049368411_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE3lQ2O6yefgVIXBW5AOV6Ok0iICmUz8m-TSIgKZTPyb_rFWR3rJ8TKumfB86HdYxY&_nc_ohc=IF1QZgi3nD8Q7kNvgH0db_t&_nc_ht=scontent.fbkk7-3.fna&oh=00_AYAYgSWZ9gZ9ClVwWORW1GKH-rGMt8mgnduPtaSL8pe5tw&oe=66969545)
 
 Special thanks to my team members:
 - [Krittin Dejhomchuen (Neab)](https://www.facebook.com/neab.cud) as Team Lead
