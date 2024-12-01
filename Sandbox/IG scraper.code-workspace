@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../IG scraper"
+		},
+		{
+			"path": "../../DTC-1214 BANK RECONCILATION/PYTHON/BANK_RECONCILIATION"
+		},
+		{
+			"path": "../Tiktok scraper"
+		},
+		{
+			"path": "../Twitter scraper"
+		},
+		{
+			"path": "../Facebook scraper"
+		}
+	],
+	"settings": {}
+}

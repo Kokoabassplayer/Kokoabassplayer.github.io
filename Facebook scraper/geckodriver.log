@@ -1,0 +1,400 @@
+1693818142676	geckodriver	INFO	Listening on 127.0.0.1:56092
+1693818145748	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev- ... emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileFs6Av9"
+*** You are running in headless mode.
+1693818146071	Marionette	INFO	Marionette enabled
+1693818146074	Marionette	INFO	Listening on port 56102
+Read port: 56102
+WebDriver BiDi listening on ws://[::1]:56093
+1693818146139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693818146161	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:56091","sslProxy":"127.0.0.1:56091"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileFs6Av9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://[::1]:56093/devtools/browser/652f6b26-deea-4afd-9459-cd9bba4f308f
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUHI4/yb/l/en_GB/XJWpWwHjPCC.js?_nc_x=Ij3Wp8lg5Kz, line 115: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693818367699	Marionette	INFO	Stopped listening on port 56102
+[Parent 21936, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: {"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true}
+WARNING: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileFs6Av9\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileFs6Av9\sessionCheckpoints.json)
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileFs6Av9\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileFs6Av9\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileFs6Av9\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileFs6Av9\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileFs6Av9\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileFs6Av9\sessionCheckpoints.json)
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileFs6Av9\protections.sqlite
+1693818712339	geckodriver	INFO	Listening on 127.0.0.1:56383
+1693818715408	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev- ... emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofile58bheM"
+*** You are running in headless mode.
+1693818715723	Marionette	INFO	Marionette enabled
+1693818715726	Marionette	INFO	Listening on port 56393
+Read port: 56393
+WebDriver BiDi listening on ws://[::1]:56384
+1693818715791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693818715812	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:56382","sslProxy":"127.0.0.1:56382"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofile58bheM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://[::1]:56384/devtools/browser/2f6896e2-99d7-4cbe-8795-6efa9d316b1a
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUHI4/yb/l/en_GB/XJWpWwHjPCC.js?_nc_x=Ij3Wp8lg5Kz, line 115: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693818953729	Marionette	INFO	Stopped listening on port 56393
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: {"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true,"sessionstore-final-state-write-complete":true}
+WARNING: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofile58bheM\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofile58bheM\sessionCheckpoints.json)
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofile58bheM\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofile58bheM\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofile58bheM\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofile58bheM\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofile58bheM\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofile58bheM\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofile58bheM\protections.sqlite
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+1693818960850	geckodriver	INFO	Listening on 127.0.0.1:57093
+1693818963911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev- ... emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofilep87C0y"
+*** You are running in headless mode.
+1693818964211	Marionette	INFO	Marionette enabled
+1693818964214	Marionette	INFO	Listening on port 57103
+Read port: 57103
+WebDriver BiDi listening on ws://[::1]:57094
+1693818964285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693818964305	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:57092","sslProxy":"127.0.0.1:57092"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofilep87C0y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://[::1]:57094/devtools/browser/35771bf7-b8d5-47e4-86b1-b71a423bf95b
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUHI4/yb/l/en_GB/XJWpWwHjPCC.js?_nc_x=Ij3Wp8lg5Kz, line 115: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693819175769	Marionette	INFO	Stopped listening on port 57103
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: {"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true}
+WARNING: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilep87C0y\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilep87C0y\sessionCheckpoints.json)
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilep87C0y\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilep87C0y\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilep87C0y\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilep87C0y\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilep87C0y\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilep87C0y\sessionCheckpoints.json)
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilep87C0y\protections.sqlite
+1693819180118	geckodriver	INFO	Listening on 127.0.0.1:57315
+1693819183147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev- ... emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileRtYDs2"
+*** You are running in headless mode.
+1693819183472	Marionette	INFO	Marionette enabled
+1693819183475	Marionette	INFO	Listening on port 57326
+Read port: 57326
+WebDriver BiDi listening on ws://[::1]:57316
+1693819183545	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693819183567	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:57314","sslProxy":"127.0.0.1:57314"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileRtYDs2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://[::1]:57316/devtools/browser/77f3407b-3f8c-45c3-9c1e-e84a9814c932
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUHI4/yb/l/en_GB/XJWpWwHjPCC.js?_nc_x=Ij3Wp8lg5Kz, line 115: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693819419307	Marionette	INFO	Stopped listening on port 57326
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: {"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true,"sessionstore-final-state-write-complete":true}
+WARNING: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileRtYDs2\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileRtYDs2\sessionCheckpoints.json)
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: , line 0: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileRtYDs2\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileRtYDs2\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileRtYDs2\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileRtYDs2\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileRtYDs2\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileRtYDs2\sessionCheckpoints.json)
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileRtYDs2\protections.sqlite
+1693819423943	geckodriver	INFO	Listening on 127.0.0.1:57728
+1693819426990	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev- ... emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofilew69oP7"
+*** You are running in headless mode.
+1693819427279	Marionette	INFO	Marionette enabled
+1693819427283	Marionette	INFO	Listening on port 57738
+Read port: 57738
+WebDriver BiDi listening on ws://[::1]:57729
+1693819427363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693819427385	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:57727","sslProxy":"127.0.0.1:57727"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofilew69oP7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://[::1]:57729/devtools/browser/9a845899-6252-42dc-8137-4d9970fdf998
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUHI4/yb/l/en_GB/XJWpWwHjPCC.js?_nc_x=Ij3Wp8lg5Kz, line 115: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693819643213	Marionette	INFO	Stopped listening on port 57738
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: {"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true}
+WARNING: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilew69oP7\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilew69oP7\sessionCheckpoints.json)
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilew69oP7\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilew69oP7\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilew69oP7\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilew69oP7\sessionCheckpoints.json)
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofilew69oP7\protections.sqlite
+1693819647087	geckodriver	INFO	Listening on 127.0.0.1:58001
+1693819650127	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev- ... emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileKwQe94"
+*** You are running in headless mode.
+1693819650414	Marionette	INFO	Marionette enabled
+1693819650417	Marionette	INFO	Listening on port 58011
+WebDriver BiDi listening on ws://[::1]:58002
+Read port: 58011
+1693819650572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693819650591	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:58000","sslProxy":"127.0.0.1:58000"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileKwQe94\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://[::1]:58002/devtools/browser/72f6f45c-3b68-4fa5-8da7-85367f05e8a7
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUHI4/yb/l/en_GB/XJWpWwHjPCC.js?_nc_x=Ij3Wp8lg5Kz, line 115: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1693819845289	Marionette	INFO	Stopped listening on port 58011
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 763: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileKwQe94\protections.sqlite
+1693820132322	geckodriver	INFO	Listening on 127.0.0.1:59219
+1693820135369	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev- ... emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofilepm8YhF"
+*** You are running in headless mode.
+1693820135657	Marionette	INFO	Marionette enabled
+1693820135661	Marionette	INFO	Listening on port 59230
+Read port: 59230
+WebDriver BiDi listening on ws://[::1]:59220
+1693820135740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693820135761	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:59218","sslProxy":"127.0.0.1:59218"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofilepm8YhF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://[::1]:59220/devtools/browser/8f969ef9-b4f7-4544-b491-ab006f62e27f
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUHI4/yb/l/en_GB/XJWpWwHjPCC.js?_nc_x=Ij3Wp8lg5Kz, line 115: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693820225769	geckodriver	INFO	Listening on 127.0.0.1:59529
+1693820228817	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev- ... emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileVnFFvy"
+*** You are running in headless mode.
+1693820229545	Marionette	INFO	Marionette enabled
+1693820229555	Marionette	INFO	Listening on port 59544
+Read port: 59544
+WebDriver BiDi listening on ws://[::1]:59530
+1693820229750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693820229783	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:59528","sslProxy":"127.0.0.1:59528"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileVnFFvy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://[::1]:59530/devtools/browser/83764882-9e4b-4552-8981-ac24a0290c76
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUHI4/yb/l/en_GB/XJWpWwHjPCC.js?_nc_x=Ij3Wp8lg5Kz, line 115: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693820319160	Marionette	INFO	Stopped listening on port 59544
+JavaScript error: , line 0: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\sessionCheckpoints.json)
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: {"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true}
+WARNING: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\sessionCheckpoints.json)
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\sessionCheckpoints.json)
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i9Sr4/y2/l/en_GB/L-3uOKSDCpi.js?_nc_x=Ij3Wp8lg5Kz, line 798: Error: Minified React error #185; visit https://reactjs.org/docs/error-decoder.html?invariant=185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileVnFFvy\protections.sqlite
+1693821164745	geckodriver	INFO	Listening on 127.0.0.1:59855
+1693821167795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev- ... emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileu3vF9f"
+*** You are running in headless mode.
+1693821168128	Marionette	INFO	Marionette enabled
+1693821168131	Marionette	INFO	Listening on port 59865
+Read port: 59865
+WebDriver BiDi listening on ws://[::1]:59856
+1693821168195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693821168216	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:59854","sslProxy":"127.0.0.1:59854"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileu3vF9f\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://[::1]:59856/devtools/browser/e5db8220-5fe6-4598-8bf2-edb4bb30ebd1
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUHI4/yb/l/en_GB/XJWpWwHjPCC.js?_nc_x=Ij3Wp8lg5Kz, line 115: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693821362423	Marionette	INFO	Stopped listening on port 59865
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: {"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true}
+WARNING: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileu3vF9f\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileu3vF9f\sessionCheckpoints.json)
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileu3vF9f\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileu3vF9f\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileu3vF9f\protections.sqlite
+1693909619807	geckodriver	INFO	Listening on 127.0.0.1:52293
+1693909622837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev- ... emote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileBWwXYL"
+*** You are running in headless mode.
+1693909623829	Marionette	INFO	Marionette enabled
+1693909623839	Marionette	INFO	Listening on port 52304
+Read port: 52304
+WebDriver BiDi listening on ws://[::1]:52294
+1693909624042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1693909624078	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:52292","sslProxy":"127.0.0.1:52292"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NUTTAP~1.BUT\\AppData\\Local\\Temp\\rust_mozprofileBWwXYL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://[::1]:52294/devtools/browser/9a09bb8b-ca53-4e3a-a9bc-96cf3aef6581
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUHI4/yb/l/en_GB/XJWpWwHjPCC.js?_nc_x=Ij3Wp8lg5Kz, line 115: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693909842736	Marionette	INFO	Stopped listening on port 52304
+JavaScript error: , line 0: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileBWwXYL\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileBWwXYL\sessionCheckpoints.json)
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change and awaiting all checkpoints written
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: {"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true,"sessionstore-final-state-write-complete":true}
+WARNING: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileBWwXYL\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileBWwXYL\sessionCheckpoints.json)
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileBWwXYL\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileBWwXYL\sessionCheckpoints.json)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: OperationError: Could not move temporary file(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileBWwXYL\sessionCheckpoints.json.tmp) to destination(C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileBWwXYL\sessionCheckpoints.json)
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ivcM4/y5/l/en_GB/Zmyf9188Fo5.js?_nc_x=Ij3Wp8lg5Kz, line 758: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\NUTTAP~1.BUT\AppData\Local\Temp\rust_mozprofileBWwXYL\protections.sqlite
