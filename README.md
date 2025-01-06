@@ -47,7 +47,7 @@ I am grateful to have been a part of 'TEAM 21', which was awarded both the 1st p
 
 Our project focused on creating a sophisticated chatbot that utilized Generative AI to enhance user interaction and functionality. The project’s success was due to our team’s hard work and innovative approach.
 
-![Team 21 Winning Moment](https://scontent.fbkk7-3.fna.fbcdn.net/v/t39.30808-6/448578293_993037299284482_2223861180049368411_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE3lQ2O6yefgVIXBW5AOV6Ok0iICmUz8m-TSIgKZTPyb_rFWR3rJ8TKumfB86HdYxY&_nc_ohc=IF1QZgi3nD8Q7kNvgH0db_t&_nc_ht=scontent.fbkk7-3.fna&oh=00_AYAYgSWZ9gZ9ClVwWORW1GKH-rGMt8mgnduPtaSL8pe5tw&oe=66969545)
+![Team 21 Winning Moment](https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/448578293_993037299284482_2223861180049368411_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE3lQ2O6yefgVIXBW5AOV6Ok0iICmUz8m-TSIgKZTPyb_rFWR3rJ8TKumfB86HdYxY&_nc_ohc=SYTI9ssADywQ7kNvgGG9Pr3&_nc_oc=AdhLBCsZ4guyXa6iPDkimErpEbFzB0TxTtlHhq3RerufJoxwJHP_ZrRcyQKSaul7HqI&_nc_zt=23&_nc_ht=scontent.fbkk13-1.fna&_nc_gid=Ands3MC0Z16K1ju8xGPY0je&oh=00_AYAGgvhKoMxsythE3F_lYCB1z0LJ9jB4r9EyBMRBzLtHHA&oe=67817885)
 
 Special thanks to my team members:
 - [Krittin Dejhomchuen (Neab)](https://www.facebook.com/neab.cud) as Team Lead
@@ -59,8 +59,8 @@ We are honored to have received recognition for our efforts.
 ### Featured on Social Media
 
 Our participation and success at the Cloud Ace Hackathon were kindly acknowledged by คลาวด์ เอซ - Cloud Ace Thailand in the following posts:
-- [Facebook Post 1](https://www.facebook.com/share/p/yNSGsi4WcZRds9pK/)
-- [Facebook Post 2](https://www.facebook.com/share/v/jTFvUqkCtD3eHV7e/)
+- [Facebook Post 1](https://www.facebook.com/share/p/15VTsdeVZJ/)
+- [Facebook Post 2](https://www.facebook.com/share/p/1B3My3R3aa/)
 
 This recognition means a lot to us, and we appreciate the support from the community.
 
